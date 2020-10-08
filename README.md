@@ -60,14 +60,17 @@ Lista funkjonalności jakie należy zaimplementować w silniku gry:
   - Wieża
   - Goniec
   - Król.
-1. Roszada.
-1. Szachowanie króla.
-1. Szach mat.
+1. Promowanie pionka na dowolną inną figurę (oprócz króla) na końcu planszy.
+1. Roszada: https://pl.wikipedia.org/wiki/Roszada
+1. Szachowanie króla: https://pl.wikipedia.org/wiki/Szach_(szachy)
+1. Szach mat: https://pl.wikipedia.org/wiki/Mat_(szachy)
 1. Możliwość cofania ruchów (aż do początkowego układu).
 1. Tekstowe komentarze do gry (przykładowo):
   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
   - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1`
   - `Gracz Biały wykonał roszadę po stronie królowej.`
+  
+Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. Dokładnie poznajcie domenę w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami. Starajcie się przewidzieć przypadki brzegowe i zaimplementujcie do nich odpowiednie testy.
 
 Jedno z wcześniejszych wykonań działającej aplikacji możecie zobaczyć TUTAJ. Jednakże nie należy się na nim 100% wzorować.
 Niektóre wymagania mogły ulec zmianie.
