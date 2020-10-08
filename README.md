@@ -41,6 +41,11 @@ Przykładem może być też jakaś inna gra - np. Chińczyk. Powodzenia!
 Czas porzucić narrację CodersCamp i wcielić się w członka zespołu projektowego...
 
 ### Założenia projektowe
+W trakcie projektu stajecie przed większym (lub mniejszym - jak kto woli) wyzwaniem.
+Teraz nie macie niestety ani linijki już gotowego kodu. Swoją pracę zaczynacie w tzw. projekcie greenfield, czyli totalnie od zera.
+Pozwala to na większą dowolność, ale też wymaga na początku większego nakładu pracy i jest wązkim gardłem. 
+Jako zespół musicie podjąć odpowiednie decyzje na samym początku i postarać się jak najszybciej umożliwić pracę wielu osobom na raz.
+
 Szachy są coraz bardziej popularne wśród przedsiębiorców. Odbywają się nawet Mistrzostwa Polski dla osób prowadzące własne działaności.
 Niestety, obecna sytuacja z pandemią pokrzyżowała trochę plany zorganizowania kolejnych mistrzostw.
 Dlatego wasz zespół został poproszony o przygotowanie mechanizmu szachów, który pomógłby w organizacji tych mistrzostw online.
