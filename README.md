@@ -55,10 +55,10 @@ Lista funkjonalności jakie należy zaimplementować w silniku gry:
   - Wieża
   - Goniec
   - Król.
-2. Roszada.
-3. Szach i Szach Mat.
-4. Cofanie ruchów.
-5. Tekstowe komentarze do gry.
+1. Roszada.
+1. Szach i Szach Mat.
+1. Cofanie ruchów.
+1. Tekstowe komentarze do gry.
 
 Jedno z wcześniejszych wykonań działającej aplikacji możecie zobaczyć TUTAJ. Jednakże nie należy się na nim 100% wzorować.
 Niektóre wymagania mogły ulec zmianie.
@@ -74,7 +74,8 @@ Naprawdę macie szczęście co do klienta! Wielu uważa testy za niepotrzebne i 
 A co znaczy „odpowiednio pokryta" to już należy właśnie ustalić z samym Klientem :) 
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
-//TODO
+1. Zaimplementuj kończenie gry przez Pat.
+1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady - pat był wygraną strony, która zapatowała przeciwnika.
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
