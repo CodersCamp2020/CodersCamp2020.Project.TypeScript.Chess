@@ -56,9 +56,13 @@ Lista funkjonalności jakie należy zaimplementować w silniku gry:
   - Goniec
   - Król.
 1. Roszada.
-1. Szach i Szach Mat.
-1. Cofanie ruchów.
-1. Tekstowe komentarze do gry.
+1. Szachowanie króla.
+1. Szach mat.
+1. Możliwość cofania ruchów (aż do początkowego układu).
+1. Tekstowe komentarze do gry (przykładowo):
+  - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
+  - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1`
+  - `Gracz Biały wykonał roszadę po stronie królowej.`
 
 Jedno z wcześniejszych wykonań działającej aplikacji możecie zobaczyć TUTAJ. Jednakże nie należy się na nim 100% wzorować.
 Niektóre wymagania mogły ulec zmianie.
