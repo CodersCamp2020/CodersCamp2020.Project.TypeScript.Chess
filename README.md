@@ -86,6 +86,7 @@ Naprawdę macie szczęście co do klienta! Wielu uważa testy za niepotrzebne i 
 A co znaczy „odpowiednio pokryta" to już należy właśnie ustalić z samym Klientem :) 
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
+1. Odliczanie czasu dla każdej ze stron.
 1. Zaimplementuj kończenie gry przez Pat.
 1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady - pat był wygraną strony, która zapatowała przeciwnika.
 
