@@ -17,7 +17,7 @@ Wyznaczony Development Manager niech organizuje pracę dalej, ale dobrze jakbyś
 Coders Camp (coderscamp.edu.pl) - Projekt TypeScript. 
 
 ![Szachy - Ekrany](./.github/images/SzachyEkrany.png)
-Proponowany projekt - Szachy (opis poniżej).
+Proponowany projekt — Szachy (opis poniżej).
 
 ### Zasady wykonywania projektu (wspólne dla wszystkich grup i mentorów): 
 
