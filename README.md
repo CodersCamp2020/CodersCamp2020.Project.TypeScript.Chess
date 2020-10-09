@@ -71,7 +71,7 @@ Lista funkjonalności jakie należy zaimplementować w silniku gry:
 1. Możliwość cofania ruchów (aż do początkowego układu).
 1. Tekstowe komentarze do gry (przykładowo):
   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
-  - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Biały Król jest szachowany!`
+  - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
   - `Gracz Biały wykonał roszadę po stronie królowej.`
   
 Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. 
