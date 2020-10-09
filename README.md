@@ -69,9 +69,10 @@ Lista funkjonalności jakie należy zaimplementować w silniku gry:
 1. Szachowanie króla: https://pl.wikipedia.org/wiki/Szach_(szachy)
 1. Szach mat: https://pl.wikipedia.org/wiki/Mat_(szachy)
 1. Możliwość cofania ruchów (aż do początkowego układu).
+1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu).
 1. Tekstowe komentarze do gry (przykładowo):
   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
-  - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1`
+  - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
   - `Gracz Biały wykonał roszadę po stronie królowej.`
   
 Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. 
@@ -94,9 +95,10 @@ Naprawdę macie szczęście co do klienta! Wielu uważa testy za niepotrzebne i 
 A co znaczy „odpowiednio pokryta”, to już należy właśnie ustalić z samym Klientem :) 
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
-1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu).
 1. Zaimplementuj kończenie gry przez Pat.
 1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady mówiły, że pat powodował wygraną strony, która zapatowała przeciwnika.
+1. Dwie wersje językowe gry - Polska i Angielska.
+1. Ładowanie stanu początkowego z np. notacji algebraicznej / tablicy emojis.
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
