@@ -58,7 +58,7 @@ Nie skupiacie się na kwestiach gry wielu graczy przez internet itp.
 Ponieważ aplikacja ma być sygnowana przez CodersCrew, spróbujcie przygotować ją zgodnie z identyfikacją wizualną stowarzyszenia.
 
 Lista funkjonalności jakie należy zaimplementować w silniku gry:
-1. Ruchy wszystkich bierek:
+1. Ruchy wszystkich bierek (wykonanie ruchu jak i pokazywanie możliwych):
   - Pionek
   - Hetman
   - Wieża
@@ -81,6 +81,8 @@ Starajcie się przewidzieć przypadki brzegowe i zaimplementujcie do nich odpowi
 Jedno z wcześniejszych wykonań działającej aplikacji możecie zobaczyć TUTAJ. Jednakże nie należy się na nim 100% wzorować.
 Niektóre wymagania mogły ulec zmianie.
 **Jeśli macie w swoim zespole osobę chętną na przygotowanie designów, to także możecie UI zrobić kompletnie inaczej.**
+A jeśli nie, to możecie się wzorować na przedstawionych TUTAJ. Jednakże brakuje takich rzeczy jak np. wyświetlanie możliwych ruchów,
+podświetlanie wybranego pionka, czy zaznaczenie szachowanego króla.
 
 Waszym zadaniem będzie zaimplementować aplikację, aby działała wg wymagań klienta, a także przygotować i wykonać
 wersję responsywną aplikacji (dostosowaną do wyświetlania na Tabletach i Telefonach — możecie przygotować najpierw projekt interfejsu, lub od razu przejść do implementacji).
