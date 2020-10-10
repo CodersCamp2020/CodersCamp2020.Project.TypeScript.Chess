@@ -14,7 +14,7 @@ Dostarczamy Ci ten kod dla ułatwienia mentorowania, ale nie traktuj go jako jak
 Wyznaczony Development Manager niech organizuje pracę dalej, ale dobrze jakbyś był na spotkaniach planujących zadania.
 
 # CodersCamp 2020 - Projekt TypeScript
-Coders Camp (coderscamp.edu.pl) - Projekt TypeScript. 
+**CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
 
 ![Szachy - Ekrany](./.github/images/SzachyEkrany.png)
 Proponowany projekt — Szachy (opis poniżej).
