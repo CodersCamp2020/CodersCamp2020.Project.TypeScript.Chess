@@ -1,18 +1,3 @@
-### Instrukcja dla mentora
-Drogi mentorze, cały projekt, jak i wytyczne traktuj jako „wskazówki". 
-Pamiętaj, że nadrzędnym celem na CodersCamp jest przekazać wiedzę i nauczyć :) 
-Wszystko, co wg. Twojej najlepszej wiedzy, będzie służyć do osiągnięcia tego celu, możesz zastosować. 
-Jednakże pamiętaj o trzymaniu się ogólnych wytycznych oceny i programu kursu (minimum musi zostać spełnione, abyśmy na koniec kursu mogli potwierdzić uczestnikom opanowanie umiejętności stosownym dokumentem).
-
-Aby przygotować TEN projekt do wykonania przez zespół.
-1. Sklonuj repozytorium.
-2. Usuń branch z proponowanym rozwiązaniem, aby nie hamować kreatywności zespołu. 
-Możesz się nią zainspirować albo wykonać projekt zupełnie inaczej. 
-Dostarczamy Ci ten kod dla ułatwienia mentorowania, ale nie traktuj go jako jakiegoś _wyznacznika_, czy dobrego, albo _jedynego poprawnego_ rozwiązania.
-3. Usuń instrukcję dla mentora z README.md
-4. Spotkaj się z zespołem, aby przeprowadzić planning i potworzyć Issues przynajmniej na pierwszy tydzień.
-Wyznaczony Development Manager niech organizuje pracę dalej, ale dobrze jakbyś był na spotkaniach planujących zadania.
-
 # CodersCamp 2020 - Projekt TypeScript
 **CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
 
