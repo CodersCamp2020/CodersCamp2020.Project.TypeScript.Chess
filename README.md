@@ -64,11 +64,10 @@ Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szacho
 Dokładnie poznajcie domenę, w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami. 
 Starajcie się przewidzieć przypadki brzegowe i zaimplementujcie do nich odpowiednie testy.
 
-Jedno z wcześniejszych wykonań działającej aplikacji możecie zobaczyć TUTAJ. Jednakże nie należy się na nim 100% wzorować.
-Niektóre wymagania mogły ulec zmianie.
 **Jeśli macie w swoim zespole osobę chętną na przygotowanie designów, to także możecie UI zrobić kompletnie inaczej.**
-A jeśli nie, to możecie się wzorować na przedstawionych TUTAJ. Jednakże brakuje takich rzeczy jak np. wyświetlanie możliwych ruchów,
-podświetlanie wybranego pionka, czy zaznaczenie szachowanego króla.
+A jeśli nie, to możecie się wzorować na przedstawionych [TUTAJ - Link do Figma](https://www.figma.com/file/ZllWbpJCCCCKVl7QEfNWbl/CodersCamp2020.Project.TypeScript.Chess?node-id=4461%3A3896). 
+Jednakże brakuje takich rzeczy jak np. wyświetlanie możliwych ruchów, podświetlanie wybranego pionka, czy zaznaczenie szachowanego króla.
+Co powinniście zaprojektować w ramach wykonywania aplikacji.
 
 Waszym zadaniem będzie zaimplementować aplikację, aby działała wg wymagań klienta, a także przygotować i wykonać
 wersję responsywną aplikacji (dostosowaną do wyświetlania na Tabletach i Telefonach — możecie przygotować najpierw projekt interfejsu, lub od razu przejść do implementacji).
