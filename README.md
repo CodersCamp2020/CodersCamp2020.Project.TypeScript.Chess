@@ -10,7 +10,11 @@ Proponowany projekt — Szachy (opis poniżej).
 - typy podstawowe
 - definiowanie własnych typów
 - składanie typów
-- typy, klasy, interfejsy
+- typy / klasy / interfejsy
+- implementacja / dziedziczenie / kompozycja
+- modyfikatory dostępu 
+- typy generyczne
+- testy jednostkowe i TDD
 
 ##### W trakcie trwania projektu należy wyznaczyć w zespole następujące role
 tak jak opisano w przypadku poprzedniego projektu.
