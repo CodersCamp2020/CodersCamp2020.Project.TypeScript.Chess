@@ -24,7 +24,7 @@ tak jak opisano w przypadku poprzedniego projektu.
 
 ## Gra w Szachy
 Teraz przechodzimy do przykładowego projektu, który został przygotowany przez organizatorów kursu.
-Proponowany projekt pozwala na zastosowania większości umiejętności, jakie powinniście posiąśc w trakcie przerabiania działu.
+Proponowany projekt pozwala na zastosowania większości umiejętności, jakie powinniście posiąść w trakcie przerabiania działu.
 Jednakże jeśli macie pomysł na projekt podobnej skali, który spełni opisane na górze wymagania i czujecie się na siłach
 w zdefiniowaniu funkcjonalności, przygotowaniu ekranów i podzieleniu go na zadania — to nic nie stoi na przeszkodzie,
 aby wykonać np. coś związanego z zainteresowaniami Waszej grupy :)
@@ -46,8 +46,8 @@ Oczywiście jest to o wiele większy projekt, dlatego Wy odpowiadacie tylko za s
 Nie skupiacie się na kwestiach gry wielu graczy przez internet itp.
 Ponieważ aplikacja ma być sygnowana przez CodersCrew, spróbujcie przygotować ją zgodnie z identyfikacją wizualną stowarzyszenia.
 
-Lista funkjonalności jakie należy zaimplementować w silniku gry:
-1. Ruchy wszystkich bierek (wykonanie ruchu jak i pokazywanie możliwych):
+Lista funkjonalności, jakie należy zaimplementować w silniku gry:
+1. Ruchy wszystkich bierek (wykonanie ruchu, jak i pokazywanie możliwych):
   - Pionek
   - Hetman
   - Wieża
@@ -85,7 +85,7 @@ A co znaczy „odpowiednio pokryta”, to już należy właśnie ustalić z samy
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
 1. Zaimplementuj kończenie gry przez Pat.
 1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady mówiły, że pat powodował wygraną strony, która zapatowała przeciwnika.
-1. Dwie wersje językowe gry - Polska i Angielska.
+1. Dwie wersje językowe gry — Polska i Angielska.
 1. Ładowanie stanu początkowego z np. notacji algebraicznej / tablicy emojis.
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
@@ -96,4 +96,4 @@ Template znajdziecie w poprzednim projekcie.
 
 ## Porady odnośnie do projektu
 - Dla testów może warto wykorzystać trochę reprezentacji wizualnej. Co powiecie na emoji :) ? 
-Sprawdzcie ten BLOG POST.
+Sprawdźcie ten BLOG POST.
