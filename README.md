@@ -62,8 +62,10 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
   - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
   - `Gracz Biały wykonał roszadę po stronie królowej.`
-1. Możliwość wyboru nieskończonego czasu gry lub szzachów błyskawicznych.
+1. Możliwość wyboru nieskończonego czasu gry lub szachów błyskawicznych.
 1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu) w przypadku szachów błyskawicznych.
+1. Dodatkowy czas doliczany do limitu czasowego gracza za każdy ruch (propocjonalny do długości całej patrii). 
+1. Kończenie gry przez limit czasowy - gracz, któremu skończył się czas przegrywa. Nie rozpatrujemy przypadku porażki.
 
   
 Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. 
@@ -97,5 +99,7 @@ Wszelkie inne dodane przez Was funkcjonalności czy usprawnienia infrastruktural
 Template znajdziecie w poprzednim projekcie.
 
 ## Porady odnośnie do projektu
+- Warto zapozań się z możliwościami kończenia partii szachowych (nie wszystko jest wymagane).
+   - [How Chess Games Can End: 8 Ways Explained](https://www.chess.com/article/view/how-chess-games-can-end-8-ways-explained)
 - Dla testów może warto wykorzystać trochę reprezentacji wizualnej. Co powiecie na emoji :) ? 
-Sprawdźcie ten BLOG POST.
+   - [Emoji-Driven Development | ZycieNaKodach.pl](https://zycienakodach.pl/tdd-dsl-szachy-emojis)
