@@ -19,7 +19,9 @@ Proponowany projekt — Szachy (opis poniżej).
 ##### W trakcie trwania projektu należy wyznaczyć w zespole następujące role
 tak jak opisano w przypadku poprzedniego projektu.
 
-Product Owner odpowiada za ustalenie zadań dla zespołów do wykonania aplikacji. Oczywiście nie musi, a nawet nie powinien tego robić sam. Można zorganizować spotkanie osób pełniących role w zespole, albo nawet całego zespołu. W tym projekcie dobrze też zacząć estymować zadania wspólnie z zespołem. Jednakże mentor może zaproponować swój tryb pracy.
+Product Owner odpowiada za ustalenie zadań dla zespołu, które umożliwią wykonanie aplikacji zgodnie z wymaganiami. 
+Oczywiście nie musi, a nawet nie powinien tego robić sam. Można zorganizować spotkanie osób pełniących role w zespole, albo nawet całego zespołu. 
+W tym projekcie dobrze też zacząć estymować zadania wspólnie z zespołem. Jednakże mentor może zaproponować swój tryb pracy.
 
 ##### Sposób oceny projektu (i wszystkich kolejnych projektów na CodersCamp)
 tak jak opisano w przypadku poprzedniego projektu.
