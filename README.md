@@ -91,7 +91,7 @@ Waszym zadaniem będzie zaimplementować aplikację, aby działała wg wymagań 
 wersję responsywną aplikacji (dostosowaną do wyświetlania na Tabletach i Telefonach — możecie przygotować najpierw projekt interfejsu, lub od razu przejść do implementacji).
 W celu zaprezentowania działania aplikacja musi być możliwa do odwiedzenia w internecie.
 Klient nie chce ponosić za to żadnych dodatkowych kosztów, dlatego należy wykorzystać jedną z usług oferujących darmowe
-uruchomienie takiej aplikacji (np. GitHub Pages).
+uruchomienie takiej aplikacji (np. GitHub Pages lub Netlify).
 Klient wymaga także, aby aplikacja nie tylko działała, ale była odpowiednio pokryta testami.
 Naprawdę macie szczęście co do klienta! Wielu uważa testy za niepotrzebne i jedynie stratę pieniędzy.
 A co znaczy „odpowiednio pokryta”, to już należy właśnie ustalić z samym Klientem :) 
