@@ -110,6 +110,8 @@ Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższy
    - https://gist.github.com/bessfernandez/a14f3d76515e5059d18d58f7acb25395
    - https://github.com/storybookjs/storybook/tree/next/app/html
    - https://v4-1-18--storybooks.netlify.app/basics/guide-html/
+   - https://gist.github.com/bessfernandez/a14f3d76515e5059d18d58f7acb25395
+   - https://v4-0-11--storybooks.netlify.app/basics/guide-html/
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
 
 Wszelkie inne dodane przez Was funkcjonalności czy usprawnienia infrastrukturalne należy przedstawić w README.md projektu :)
