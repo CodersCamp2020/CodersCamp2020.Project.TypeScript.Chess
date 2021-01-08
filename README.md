@@ -96,7 +96,7 @@ Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższy
 
 1. Zaimplementuj kończenie gry przez Pat.
 1. Dwie wersje językowe gry — Polska i Angielska.
-1. Ładowanie stanu początkowego z np. notacji algebraicznej / tablicy emojis.
+1. Ładowanie stanu początkowego z np. notacji FEN (https://pl.wikipedia.org/wiki/Notacja_Forsytha-Edwardsa) i/lub tablicy emojis.
 1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady mówiły, że pat powodował wygraną strony, która zapatowała przeciwnika.
 1. Głosowe wykonywanie ruchów. Np. gracz mówi: "Pion na A3".
 
