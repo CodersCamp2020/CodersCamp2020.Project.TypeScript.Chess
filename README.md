@@ -48,11 +48,11 @@ Ponieważ aplikacja ma być sygnowana przez CodersCrew, spróbujcie przygotować
 
 Lista funkjonalności, jakie należy zaimplementować w silniku gry:
 1. Ruchy wszystkich bierek (wykonanie ruchu, jak i pokazywanie możliwych):
-  - Pionek
-  - Hetman
-  - Wieża
-  - Goniec
-  - Król.
+   - Pionek
+   - Hetman
+   - Wieża
+   - Goniec
+   - Król.
 1. Promowanie pionka na dowolną inną figurę (oprócz króla) na końcu planszy.
 1. Roszada: https://pl.wikipedia.org/wiki/Roszada
 1. Szachowanie króla: https://pl.wikipedia.org/wiki/Szach_(szachy)
@@ -70,13 +70,13 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
 1. Tworzenie nowej partii z aktualnego stanu partii. Gra nie może być zakończona.
 
   
-Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. 
+Uwaga: Pamiętajcie, że na ruchy bierek, promocja pionka, możliwość roszady wpływa na szachowanie króla. 
 Dokładnie poznajcie domenę, w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami. 
 Starajcie się przewidzieć przypadki brzegowe i zaimplementujcie do nich odpowiednie testy.
 
 **Jeśli macie w swoim zespole osobę chętną na przygotowanie designów, to także możecie UI zrobić kompletnie inaczej.**
 A jeśli nie, to możecie się wzorować na przedstawionych [TUTAJ - Link do Figma](https://www.figma.com/file/ZllWbpJCCCCKVl7QEfNWbl/CodersCamp2020.Project.TypeScript.Chess?node-id=4461%3A3896). 
-Jednakże brakuje takich rzeczy jak np. wyświetlanie możliwych ruchów, podświetlanie wybranego pionka, czy zaznaczenie szachowanego króla.
+Jednakże brakuje takich rzeczy jak np. wyświetlanie możliwych ruchów, podświetlanie wybranego pionka, zaznaczenie szachowanego króla czy wybór pdoczas promowania pionka.
 Co powinniście zaprojektować w ramach wykonywania aplikacji.
 
 Waszym zadaniem będzie zaimplementować aplikację, aby działała wg wymagań klienta, a także przygotować i wykonać
@@ -89,10 +89,13 @@ Naprawdę macie szczęście co do klienta! Wielu uważa testy za niepotrzebne i 
 A co znaczy „odpowiednio pokryta”, to już należy właśnie ustalić z samym Klientem :) 
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
+Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższych funkcjonalności. 
+
 1. Zaimplementuj kończenie gry przez Pat.
 1. Dwie wersje językowe gry — Polska i Angielska.
 1. Ładowanie stanu początkowego z np. notacji algebraicznej / tablicy emojis.
 1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady mówiły, że pat powodował wygraną strony, która zapatowała przeciwnika.
+1. Głosowe wykonywanie ruchów. Np. gracz mówi: "Pion na A3".
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
