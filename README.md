@@ -107,6 +107,7 @@ Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższy
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
 1. Rozgrywka z komputerem - sztuczna inteligencja. Można wykorzystać np. algorytm minimax.
+   - https://alialaa.com/blog/tic-tac-toe-js-minimax
    - https://www.youtube.com/watch?v=l-hh51ncgDI
    - https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
    - https://towardsdatascience.com/create-ai-for-your-own-board-game-from-scratch-minimax-part-2-517e1c1e3362
