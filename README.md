@@ -59,9 +59,9 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
 1. Szach mat: https://pl.wikipedia.org/wiki/Mat_(szachy)
 1. Możliwość cofania ruchów (aż do początkowego układu).
 1. Tekstowe komentarze do gry (przykładowo):
-  - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
-  - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
-  - `Gracz Biały wykonał roszadę po stronie królowej.`
+   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
+   - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
+   - `Gracz Biały wykonał roszadę po stronie królowej.`
 1. Możliwość wyboru nieskończonego czasu gry lub szachów błyskawicznych.
 1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu) w przypadku szachów błyskawicznych.
 1. Dodatkowy czas doliczany do limitu czasowego gracza za każdy ruch (propocjonalny do długości całej patrii). 
@@ -90,9 +90,9 @@ A co znaczy „odpowiednio pokryta”, to już należy właśnie ustalić z samy
 
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
 1. Zaimplementuj kończenie gry przez Pat.
-1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady mówiły, że pat powodował wygraną strony, która zapatowała przeciwnika.
 1. Dwie wersje językowe gry — Polska i Angielska.
 1. Ładowanie stanu początkowego z np. notacji algebraicznej / tablicy emojis.
+1. Zaimplementuj różne strategie Pat opisane na Wikipedii: https://pl.wikipedia.org/wiki/Pat Np. stare zasady mówiły, że pat powodował wygraną strony, która zapatowała przeciwnika.
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
