@@ -110,7 +110,7 @@ Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższy
    - https://www.youtube.com/watch?v=l-hh51ncgDI
    - https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
    - https://towardsdatascience.com/create-ai-for-your-own-board-game-from-scratch-minimax-part-2-517e1c1e3362
-   - 
+   - https://dev.to/zeyu2001/build-a-simple-chess-ai-in-javascript-18eg
 1. Użyć Storybook for HTML do prezentacji komponentów (TODO: Usunac!)
    - https://gist.github.com/bessfernandez/a14f3d76515e5059d18d58f7acb25395
    - https://github.com/storybookjs/storybook/tree/next/app/html
