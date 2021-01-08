@@ -58,11 +58,13 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
 1. Szachowanie króla: https://pl.wikipedia.org/wiki/Szach_(szachy)
 1. Szach mat: https://pl.wikipedia.org/wiki/Mat_(szachy)
 1. Możliwość cofania ruchów (aż do początkowego układu).
-1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu).
 1. Tekstowe komentarze do gry (przykładowo):
   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
   - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
   - `Gracz Biały wykonał roszadę po stronie królowej.`
+1. Możliwość wyboru nieskończonego czasu gry lub szzachów błyskawicznych.
+1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu) w przypadku szachów błyskawicznych.
+
   
 Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. 
 Dokładnie poznajcie domenę, w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami. 
