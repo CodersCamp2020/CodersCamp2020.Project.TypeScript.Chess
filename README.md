@@ -106,6 +106,9 @@ Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższy
 1. Głosowe wykonywanie ruchów. Np. gracz mówi: "Pion na A3".
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
+1. Użyć Storybook for HTML do prezentacji komponentów
+   - https://gist.github.com/bessfernandez/a14f3d76515e5059d18d58f7acb25395
+   - https://github.com/storybookjs/storybook/tree/next/app/html
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
 
 Wszelkie inne dodane przez Was funkcjonalności czy usprawnienia infrastrukturalne należy przedstawić w README.md projektu :)
