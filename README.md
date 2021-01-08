@@ -66,6 +66,7 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
 1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu) w przypadku szachów błyskawicznych.
 1. Dodatkowy czas doliczany do limitu czasowego gracza za każdy ruch (propocjonalny do długości całej patrii). 
 1. Kończenie gry przez limit czasowy - gracz, któremu skończył się czas przegrywa. Nie rozpatrujemy przypadku porażki.
+1. Wczytywanie i zapisywanie stanu partii (szachownica, czas graczy itp.) - po wczytaniu musi być możliwe cofanie ruchów.
 
   
 Uwaga: Pamiętajcie, że na ruchy pionków i możliwość roszady wpływa szachowanie króla. 
