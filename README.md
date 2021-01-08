@@ -11,7 +11,7 @@ Proponowany projekt — Szachy (opis poniżej).
 - definiowanie własnych typów
 - składanie typów
 - typy / klasy / interfejsy
-- implementacja / dziedziczenie / kompozycja
+- implementacja / dziedziczenie / kompozycja / implementacja interfejsu
 - modyfikatory dostępu 
 - typy generyczne
 - testy jednostkowe i TDD
