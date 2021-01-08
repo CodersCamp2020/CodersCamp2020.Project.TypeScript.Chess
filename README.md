@@ -101,5 +101,7 @@ Template znajdziecie w poprzednim projekcie.
 ## Porady odnośnie do projektu
 - Warto zapozań się z możliwościami kończenia partii szachowych (nie wszystko jest wymagane).
    - [How Chess Games Can End: 8 Ways Explained](https://www.chess.com/article/view/how-chess-games-can-end-8-ways-explained)
+- Jako inspirację można wykorzystać też działanie szachów zaimplementowanych przez zespół mentora Marcina Wosia na poprzednim CodersCamp
+   - https://captainobjective.github.io/chessGame/
 - Dla testów może warto wykorzystać trochę reprezentacji wizualnej. Co powiecie na emoji :) ? 
    - [Emoji-Driven Development | ZycieNaKodach.pl](https://zycienakodach.pl/tdd-dsl-szachy-emojis)
