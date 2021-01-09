@@ -16,6 +16,9 @@ Proponowany projekt — Szachy (opis poniżej).
 - typy generyczne
 - testy jednostkowe i TDD
 
+Do realizacji założeń projektowych nie używajcie żadnej biblioteki, która np. implementuje silnik szachów. Ten projekt ma za zadanie właśnie nauczyć jak planować takie systemy :) Co więcej, już nie raz słyszałem, że na rekrutacji często jest pytanie - jakbyś zaprojektował w aplikacji grę w szachy? Sam się nawet z takim spotkałem.
+W zadaniach dodatkowych jest dorobienie sztucznej inteligencji i gra przeciwko komputerowi - oczywiście AI nie jest zakresem kursu, więc tutaj możecie użyć jakiegoś gotowca lub zaimplementować własny prosty algorytm - tzw. MINIMAX jest wykonalny w niedługim czasie :) Powodzenia!
+
 ##### W trakcie trwania projektu należy wyznaczyć w zespole następujące role
 tak jak opisano w przypadku poprzedniego projektu.
 
