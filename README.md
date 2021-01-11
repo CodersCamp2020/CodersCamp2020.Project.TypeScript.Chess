@@ -17,7 +17,9 @@ Proponowany projekt — Szachy (opis poniżej).
 - testy jednostkowe i TDD
 
 Do realizacji założeń projektowych nie używajcie żadnej biblioteki, która np. implementuje silnik szachów. Ten projekt ma za zadanie właśnie nauczyć jak planować takie systemy :) Co więcej, już nie raz słyszałem, że na rekrutacji często jest pytanie - jakbyś zaprojektował w aplikacji grę w szachy? Sam się nawet z takim spotkałem.
-W zadaniach dodatkowych jest dorobienie sztucznej inteligencji i gra przeciwko komputerowi - oczywiście AI nie jest zakresem kursu, więc tutaj możecie użyć jakiegoś gotowca lub zaimplementować własny prosty algorytm - tzw. MINIMAX jest wykonalny w niedługim czasie :) Powodzenia!
+W zadaniach dodatkowych jest dorobienie sztucznej inteligencji i gra przeciwko komputerowi - oczywiście AI nie jest zakresem kursu, więc tutaj możecie użyć jakiegoś gotowca lub zaimplementować własny prosty algorytm - tzw. MINIMAX jest wykonalny w niedługim czasie :)
+Wraz z mentorem spróbujcie się skupić na właściwej architekturze aplikacji i podziale odpowiedzialności. 
+Powodzenia!
 
 ##### W trakcie trwania projektu należy wyznaczyć w zespole następujące role
 tak jak opisano w przypadku poprzedniego projektu.
@@ -74,16 +76,16 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
    - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
    - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
    - `Gracz Biały wykonał roszadę po stronie królowej.`
-1. Możliwość wyboru nieskończonego czasu gry lub szachów błyskawicznych.
+1. Wczytywanie i zapisywanie stanu partii (szachownica, czas graczy itp.) - po wczytaniu musi być możliwe cofanie ruchów. Stan partii powinien zapisywać się automatycznie co wykonany ruch.
+1. Tworzenie nowej partii z aktualnego stanu partii. Gra nie może być zakończona.
+1. Możliwość wyboru nieskończonego czasu gry lub szachów błyskawicznych (czas ograniczony dla każdego z graczy).
 1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu) w przypadku szachów błyskawicznych.
 1. Dodatkowy czas doliczany do limitu czasowego gracza za każdy ruch (propocjonalny do długości całej patrii). 
 1. Kończenie gry przez limit czasowy - gracz, któremu skończył się czas przegrywa. Nie rozpatrujemy przypadku remisu.
-1. Wczytywanie i zapisywanie stanu partii (szachownica, czas graczy itp.) - po wczytaniu musi być możliwe cofanie ruchów. Stan partii powinien zapisywać się automatycznie co wykonany ruch.
-1. Tworzenie nowej partii z aktualnego stanu partii. Gra nie może być zakończona.
 
   
-Uwaga: Pamiętajcie, że na ruchy bierek, promocja pionka, możliwość roszady wpływa na szachowanie króla. 
-Dokładnie poznajcie domenę, w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami. 
+Uwaga: Pamiętajcie, że na ruchy bierek, promocję pionka i możliwość roszady wpływa na szachowanie króla. Najlepiej zagrajcie kilka partii w zespole, żeby zapoznać się z tą domeną. No chyba, że macie w swoim zespole eksperta?
+Dokładnie poznajcie domenę, w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami i żeby nic nie przeoczyć. 
 Starajcie się przewidzieć przypadki brzegowe i zaimplementujcie do nich odpowiednie testy.
 
 **Jeśli macie w swoim zespole osobę chętną na przygotowanie designów, to także możecie UI zrobić kompletnie inaczej.**
@@ -109,18 +111,12 @@ Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższy
 1. Głosowe wykonywanie ruchów. Np. gracz mówi: "Pion na A3".
 
 ## Dodatkowe zadania (wykraczające poza zakres kursu):
-1. Rozgrywka z komputerem - sztuczna inteligencja. Można wykorzystać np. algorytm minimax.
+1. Rozgrywka z komputerem - sztuczna inteligencja. Można wykorzystać np. algorytm minimax. Skorzystajcie z źródeł:
    - https://alialaa.com/blog/tic-tac-toe-js-minimax
    - https://www.youtube.com/watch?v=l-hh51ncgDI
    - https://www.freecodecamp.org/news/simple-chess-ai-step-by-step-1d55a9266977/
    - https://towardsdatascience.com/create-ai-for-your-own-board-game-from-scratch-minimax-part-2-517e1c1e3362
    - https://dev.to/zeyu2001/build-a-simple-chess-ai-in-javascript-18eg
-1. Użyć Storybook for HTML do prezentacji komponentów (TODO: Usunac!)
-   - https://gist.github.com/bessfernandez/a14f3d76515e5059d18d58f7acb25395
-   - https://github.com/storybookjs/storybook/tree/next/app/html
-   - https://v4-1-18--storybooks.netlify.app/basics/guide-html/
-   - https://gist.github.com/bessfernandez/a14f3d76515e5059d18d58f7acb25395
-   - https://v4-0-11--storybooks.netlify.app/basics/guide-html/
 1. Wykonanie testów E2E, przy użyciu odpowiedniego narzędzia. Proponujemy np. Cypress.
 
 Wszelkie inne dodane przez Was funkcjonalności czy usprawnienia infrastrukturalne należy przedstawić w README.md projektu :)
@@ -131,5 +127,5 @@ Template znajdziecie w poprzednim projekcie.
    - [How Chess Games Can End: 8 Ways Explained](https://www.chess.com/article/view/how-chess-games-can-end-8-ways-explained)
 - Jako inspirację można wykorzystać też działanie szachów zaimplementowanych przez zespół mentora Marcina Wosia na poprzednim CodersCamp (UWAGA: Wymagania mogły ulec zmianie)
    - https://captainobjective.github.io/chessGame/
-- Dla testów może warto wykorzystać trochę reprezentacji wizualnej. Co powiecie na emoji :) ? 
+- Dla testów może warto wykorzystać trochę reprezentacji wizualnej. Co powiecie na emoji :) ? Post mentora Mateusza Nowaka.
    - [Emoji-Driven Development | ZycieNaKodach.pl](https://zycienakodach.pl/tdd-dsl-szachy-emojis)
