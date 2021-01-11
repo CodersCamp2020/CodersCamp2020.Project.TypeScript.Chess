@@ -1,3 +1,6 @@
+**UWAGA! Zaczynając pracę nad projektem — nie róbcie forka.
+Jedna osoba z zespołu (np. Mentor) powinna użyć przycisku `Use this template` i dodać innych członków zespołu jako Collaborators do tego repozytorium.**
+
 # CodersCamp 2020 - Projekt TypeScript
 **CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
 
