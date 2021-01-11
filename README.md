@@ -49,7 +49,7 @@ Czas porzucić narrację CodersCamp i wcielić się w członka zespołu projekto
 
 ### Założenia projektowe
 W trakcie projektu stajecie przed większym (lub mniejszym — jak kto woli) wyzwaniem.
-Teraz nie macie niestety ani linijki już gotowego kodu. Swoją pracę zaczynacie w tzw. projekcie greenfield, czyli totalnie od zera.
+Teraz nie macie niestety ani linijki już gotowego kodu. Brak też podzielonych zadań. Swoją pracę zaczynacie w tzw. projekcie greenfield, czyli totalnie od zera.
 Pozwala to na większą dowolność, ale też wymaga na początku większego nakładu pracy i jest wąskim gardłem. 
 Jako zespół musicie podjąć odpowiednie decyzje na samym początku i postarać się jak najszybciej umożliwić pracę wielu osobom naraz.
 
