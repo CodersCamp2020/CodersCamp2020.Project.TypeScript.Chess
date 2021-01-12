@@ -1,5 +1,6 @@
 **UWAGA! Zaczynając pracę nad projektem — nie róbcie forka.
-Jedna osoba z zespołu (np. Mentor) powinna użyć przycisku `Use this template` i dodać innych członków zespołu jako Collaborators do tego repozytorium.**
+Jedna osoba z zespołu (np. Mentor) powinna użyć przycisku `Use this template` i dodać innych członków zespołu jako Collaborators do tego repozytorium.
+Mentorzy mogą dowolnie zmieniać zakres projektu lub zdecydować się na zupełnie inny temat.**
 
 # CodersCamp 2020 - Projekt TypeScript
 **CodersCamp (coderscamp.edu.pl) - Największy otwarty kurs programowania webowego** 
@@ -75,14 +76,9 @@ Lista funkjonalności, jakie należy zaimplementować w silniku gry:
 1. Roszada: https://pl.wikipedia.org/wiki/Roszada
 1. Szachowanie króla: https://pl.wikipedia.org/wiki/Szach_(szachy)
 1. Szach mat: https://pl.wikipedia.org/wiki/Mat_(szachy)
-1. Kończenie gry przez Pat.
+1. Kończenie gry przez Pat: https://www.chess.com/pl/article/view/czym-jest-pat-szachowe-terminy
+1. Bicie w przelocie: https://www.chess.com/pl/article/view/bicie-w-przelocie-specjalne-ruchy-w-szachach
 1. Możliwość cofania ruchów (aż do początkowego układu).
-1. Tekstowe komentarze do gry (przykładowo):
-   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
-   - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
-   - `Gracz Biały wykonał roszadę po stronie królowej.`
-1. Wczytywanie i zapisywanie stanu partii (szachownica, czas graczy itp.) - po wczytaniu musi być możliwe cofanie ruchów. Stan partii powinien zapisywać się automatycznie co wykonany ruch.
-1. Tworzenie nowej partii z aktualnego stanu partii. Gra nie może być zakończona.
   
 Uwaga: Pamiętajcie, że na ruchy bierek, promocję pionka i możliwość roszady wpływa na szachowanie króla. Najlepiej zagrajcie kilka partii w zespole, żeby zapoznać się z tą domeną. No chyba, że macie w swoim zespole eksperta?
 Dokładnie poznajcie domenę, w jakiej działa wasze oprogramowanie, czyli grę w szachy, aby nie wprowadzić jakiegoś zachowania niezgodnego z zasadami i żeby nic nie przeoczyć. 
@@ -104,6 +100,12 @@ A co znaczy „odpowiednio pokryta”, to już należy właśnie ustalić z samy
 ## Możliwe usprawnienia i dodatkowe funkcjonalności:
 Jeśli starczy czasu, dla własnego rozwoju warto rozważyć wykonanie poniższych funkcjonalności. 
 
+1. Wczytywanie i zapisywanie stanu partii (szachownica, czas graczy itp.) - po wczytaniu musi być możliwe cofanie ruchów. Stan partii powinien zapisywać się automatycznie co wykonany ruch.
+1. Tworzenie nowej partii z aktualnego stanu partii. Gra nie może być zakończona.
+1. Tekstowe komentarze do gry (przykładowo):
+   - `Gracz Biały wykonał ruch "Koń z C1 na D3"`
+   - `Gracz Czarny dokonał promocji Pionka na Hetmana na polu A1. Szach białego Króla!`
+   - `Gracz Biały wykonał roszadę po stronie królowej.`
 1. Możliwość wyboru nieskończonego czasu gry lub szachów błyskawicznych (czas ograniczony dla każdego z graczy).
 1. Odliczanie czasu dla każdej ze stron (cofanie ruchu musi cofać czas do stanu sprzed ruchu) w przypadku szachów błyskawicznych.
 1. Dodatkowy czas doliczany do limitu czasowego gracza za każdy ruch (propocjonalny do długości całej patrii). 
