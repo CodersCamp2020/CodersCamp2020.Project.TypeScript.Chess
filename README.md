@@ -56,7 +56,7 @@ Jako zespół musicie podjąć odpowiednie decyzje na samym początku i postara�
 
 Szachy są coraz bardziej popularne wśród przedsiębiorców. Odbywają się nawet Mistrzostwa Polski dla osób prowadzące własne działalności.
 Niestety, obecna sytuacja z pandemią pokrzyżowała trochę plany zorganizowania kolejnych mistrzostw.
-Po sukciesie waszego ostatniego projektu wiele osób z tego środowiska usłyszało o waszych usługach.
+Po sukcesie waszego ostatniego projektu wiele osób z tego środowiska usłyszało o waszych usługach.
 Dlatego wasz zespół został poproszony o przygotowanie mechanizmu szachów, który pomógłby w organizacji tych mistrzostw online.
 Oczywiście jest to o wiele większy projekt, dlatego Wy odpowiadacie tylko za sam mechanizm szachów w przeglądarce.
 Nie skupiacie się na kwestiach gry wielu graczy przez internet. Zostanie to na bazie waszego prototypu zrealizowanie później.
@@ -65,7 +65,7 @@ Ponieważ aplikacja ma być sygnowana przez CodersCrew, spróbujcie przygotować
 Nie jest to konieczność, ale fajna możliwość wypróbowania swojej skuteczności z takim wymaganiem (które jest częste w praktyce). 
 
 
-Lista funkjonalności, jakie należy zaimplementować w silniku gry:
+Lista funkcjonalności, jakie należy zaimplementować w silniku gry:
 1. Ruchy wszystkich bierek (wykonanie ruchu, jak i pokazywanie możliwych):
    - Pionek
    - Hetman
